@@ -1,0 +1,13 @@
+#######
+## Spring boot server configuration
+#######  
+server:
+   scheme: http
+   host: localhost
+   servlet:
+      contextPath: /student/
+   port: ${PORT:9090}
+
+student-manager:
+   version: ${version:0.0.1}
+     
